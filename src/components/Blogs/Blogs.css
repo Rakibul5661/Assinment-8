@@ -1,0 +1,26 @@
+.blogs-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 1280px ;
+    gap: 20px;
+}
+
+.sidebar{
+    top: 0;
+    height: 500px;
+}
+.total-read-time{
+    background-color: #efedfd;
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    padding: 0 10px;
+    text-align: center;
+    margin-top: 40px;
+    color: #6047EC;
+}
+.bookmarked{
+    background-color: #f3f3f3;
+    padding: 30px;
+    margin-top: 24px;
+    border-radius: 8px;
+}

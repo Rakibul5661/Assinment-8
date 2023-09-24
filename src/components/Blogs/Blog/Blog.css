@@ -1,0 +1,40 @@
+.blog{
+    border-bottom: 2px solid rgb(223, 220, 220);
+    margin:40px 0;
+    padding-bottom: 20px;
+}
+.blog h1,p,a{
+    line-height: 40px;
+}
+.blog img{
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+}
+.author{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.author img{
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    display: inline-block;
+}
+.author-info h4,p{
+    margin: 5px;
+}
+.read-time{
+    position: absolute;
+    right: 0;
+}
+.read-time a{
+    color: lightgreen;
+}
+.mark{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
